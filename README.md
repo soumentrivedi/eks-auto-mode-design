@@ -1,6 +1,6 @@
 # EKS Auto Mode Security Groups per Pod - Design Repository
 
-This repository contains the complete design documentation, implementation plans, and prototypes for enabling Security Groups per Pod (SGPP) support in Amazon EKS Auto Mode clusters.
+This repository contains the complete design documentation and implementation plans for enabling Security Groups per Pod (SGPP) support in Amazon EKS Auto Mode clusters.
 
 ## 🎯 **Project Overview**
 
@@ -10,24 +10,18 @@ This project addresses the current limitation where EKS Auto Mode does not suppo
 
 ### **Design Documents**
 - **[DESIGN_DOCUMENT.md](DESIGN_DOCUMENT.md)** - Complete technical design specification
-- **[IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md)** - Detailed 16-week implementation roadmap
+- **[IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md)** - Detailed implementation roadmap
 - **[PROJECT_SUMMARY.md](PROJECT_SUMMARY.md)** - Executive summary and project overview
 
 ### **Documentation**
-- **[README.md](README.md)** - Project overview and quick start guide
 - **[CONTRIBUTION_GUIDE.md](CONTRIBUTION_GUIDE.md)** - Guidelines for contributing to the project
-- **[IMPLEMENTATION_COMPLETE.md](IMPLEMENTATION_COMPLETE.md)** - Complete implementation summary
-
-### **Implementation Resources**
-- **[docs/](docs/)** - Comprehensive user guides and examples
+- **[docs/](docs/)** - Comprehensive user guides and API documentation
 - **[prototypes/](prototypes/)** - Working prototype implementations
 - **[tests/](tests/)** - Test cases and validation scenarios
-- **[scripts/](scripts/)** - Build and deployment scripts
 
 ## 🏗️ **Architecture Overview**
 
 The solution implements:
-
 - **Auto Mode Detection Service** - Detects EKS clusters running in Auto Mode
 - **Enhanced ENI Manager** - Pool-based ENI allocation for Auto Mode
 - **Security Group Manager** - Annotation-based security group specification
@@ -85,10 +79,11 @@ spec:
 - **[Getting Started Guide](docs/user-guide/getting-started.md)** - Complete setup and usage guide
 - **[Usage Examples](docs/examples/basic-usage.md)** - Real-world examples and patterns
 - **[Architecture Overview](docs/architecture/overview.md)** - Detailed architecture documentation
+- **[API Reference](docs/api/README.md)** - Complete API documentation
 
 ## 🤝 **Contributing**
 
-This project is open for contributions. Please see the [CONTRIBUTION_GUIDE.md](CONTRIBUTION_GUIDE.md) for detailed guidelines.
+This project follows AWS contribution guidelines. Please see the [CONTRIBUTION_GUIDE.md](CONTRIBUTION_GUIDE.md) for detailed guidelines.
 
 ### **Contribution Process**
 1. Fork the repository
@@ -104,9 +99,9 @@ This project is licensed under the Apache License 2.0 - see the LICENSE file for
 
 ## 🎉 **Status**
 
-**IMPLEMENTATION COMPLETE** ✅
+**DESIGN COMPLETE** ✅
 
-This repository contains the complete design and implementation for enabling Security Groups per Pod in EKS Auto Mode clusters. The solution is production-ready and follows AWS architecture patterns and standards.
+This repository contains the complete design and implementation plan for enabling Security Groups per Pod in EKS Auto Mode clusters. The solution follows AWS architecture patterns and standards.
 
 ---
 
